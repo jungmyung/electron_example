@@ -1,0 +1,26 @@
+{
+  "name": "feconf",
+  "version": "1.0.0",
+  "description": "electron example ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jungmyung/electron_example.git"
+  },
+  "keywords": [
+    "electron",
+    "feconf"
+  ],
+  "author": "jungmyung@ncsoft.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jungmyung/electron_example/issues"
+  },
+  "homepage": "https://github.com/jungmyung/electron_example#readme",
+  "devDependencies": {
+    "electron": "1.7.5"
+  }
+}
