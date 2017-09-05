@@ -2,7 +2,7 @@
   "name": "feconf",
   "version": "1.0.0",
   "description": "electron example ",
-  "main": "index.js",
+  "main": "src/01/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
