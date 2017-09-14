@@ -11,3 +11,9 @@ npm install electron --save-dev --save-exact
 npm install electron-packager --save-dev
 ```
 
+
+* electron-builder 설치
+```bash
+npm install electron-builder --save-dev
+```
+
