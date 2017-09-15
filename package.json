@@ -2,9 +2,11 @@
   "name": "feconf",
   "version": "1.0.0",
   "description": "electron example ",
-  "main": "src/01/main.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf dist",
+    "build:osx": "build --mac"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,29 @@
     "url": "https://github.com/jungmyung/electron_example/issues"
   },
   "homepage": "https://github.com/jungmyung/electron_example#readme",
+  "build": {
+    "productName": "FEConf",
+    "appId": "com.feconf.hello",
+    "asar": true,
+    "protocols" : {
+        "name" : "FEConf",
+        "schemes" : ["FEConf"]
+    },
+    "mac": {
+      "target": [
+        "default"
+      ]
+    },
+    "dmg": {
+      "title": "FEConf",
+      "icon": "./resource/install/icon.ico"
+    },
+    "directories": {
+      "buildResources": "resource/install/",
+      "output": "dist/",
+      "app": "."
+    }
+  },  
   "devDependencies": {
     "electron": "1.7.5",
     "electron-builder": "^19.27.7",
